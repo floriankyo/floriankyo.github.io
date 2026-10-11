@@ -25,6 +25,8 @@ post_translations:
 
 Source: In Our Time, The Columbian Exchange. Found in [Mathematics as a new Age of Discovery (and what they might find)](https://interconnected.org/home/2026/10/10/math), Interconnected.
 
+My own summary after looking into it: infectious diseases such as smallpox and measles were the main cause, with war and enslavement as additional factors.
+
 </div>
 
 <div class="post-lang-content" data-post-lang="zh-CN" markdown="1">
@@ -32,5 +34,7 @@ Source: In Our Time, The Columbian Exchange. Found in [Mathematics as a new Age 
 > 1492 年，美洲生活着 6000 万人，大致与当时欧洲和中国的人口规模相当。在与欧洲人首次接触后的一百年内，这六千万人中有五千五百万人死去。
 
 来源：《In Our Time》，“The Columbian Exchange”一期。引自 Interconnected 的文章 [Mathematics as a new Age of Discovery (and what they might find)](https://interconnected.org/home/2026/10/10/math)。
+
+我调查之后的总结：天花、麻疹等传染病是主因，另外还有战争和奴役的因素。
 
 </div>
