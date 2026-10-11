@@ -5,7 +5,7 @@ date: 2026-10-12 00:00:00 +0800
 category: notes
 tags:
   - history
-  - writing
+  - quote
 post_languages:
   - en
   - zh-CN

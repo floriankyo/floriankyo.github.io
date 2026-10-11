@@ -4,8 +4,7 @@ description: A short quote from Jason Zweig.
 date: 2026-06-08 00:00:00 +0800
 category: notes
 tags:
-  - writing
-  - work
+  - quote
 post_languages:
   - en
   - zh-CN

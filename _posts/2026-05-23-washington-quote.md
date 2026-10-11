@@ -6,6 +6,7 @@ category: notes
 tags:
   - history
   - politics
+  - quote
 post_languages:
   - zh-CN
 default_post_language: zh-CN
