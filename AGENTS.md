@@ -11,7 +11,6 @@ If you need the full workflow, read those URLs directly instead of relying on co
 
 ## Repo Notes
 
-- The upstream starter remote is already configured as `chirpy`.
 - Main config is in `_config.yml`.
 - Posts live in `_posts/`.
 - Tabs live in `_tabs/`.
@@ -30,7 +29,6 @@ If you need the full workflow, read those URLs directly instead of relying on co
 - Posts are written directly in this repo under `_posts/YYYY-MM-DD-title-slug.md`; this repo is the only source of truth.
 - Preview locally with `bash tools/run.sh` and check the rendered post in the browser.
 - Commit and push to `main` to publish; the deploy workflow runs automatically.
-- There is no sync step with the Obsidian vault (`MyWorld`); the old `4-Archive/blog` copy was removed.
 
 ## Deployment
 
