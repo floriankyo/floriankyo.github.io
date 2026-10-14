@@ -4,7 +4,7 @@ icon: fas fa-folder-open
 order: 4
 ---
 
-我做过的一些项目。 / Some projects I have built.
+Some projects I have built.
 
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-1 project-cards">
 {% for p in site.data.projects %}
@@ -13,8 +13,7 @@ order: 4
       <div class="project-thumb" role="img" aria-label="{{ p.name }}" style="background-image: url('{{ p.image | relative_url }}');"></div>
       <div class="card-body">
         <h3 class="card-title h5 mt-0 mb-2">{{ p.name }}</h3>
-        <p class="card-text mb-1">{{ p.description_zh }}</p>
-        <p class="card-text text-muted small mb-2">{{ p.description }}</p>
+        <p class="card-text mb-2">{{ p.description }}</p>
         <span class="small project-link"><i class="fas fa-arrow-up-right-from-square fa-fw"></i> {{ p.url | remove: 'https://' }}</span>
       </div>
     </a>

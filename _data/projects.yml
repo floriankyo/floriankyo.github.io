@@ -1,12 +1,9 @@
 # Projects shown on the Projects tab (_tabs/projects.md).
-# Fields: name, url, image (under /assets/img/projects/), description, description_zh
 - name: My Daka App
   url: https://daka.floriankyo.com
   image: /assets/img/projects/daka.png
   description: A simple habit check-in app for creating check-in items, checking in daily, and viewing stats.
-  description_zh: 一个简单的打卡应用，可以新建打卡项目、每日打卡并查看统计。
 - name: What to Drink
   url: https://drink.floriankyo.com
   image: /assets/img/projects/drink.png
   description: A bilingual (EN/中文) drink recipe site that helps answer "what should I drink today?".
-  description_zh: 一个中英双语的饮品食谱网站，帮你回答「今天喝什么？」。
