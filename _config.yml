@@ -167,11 +167,20 @@ kramdown:
       start_line: 1
 
 collections:
+  books:
+    output: true
+    permalink: /books/:name/
   tabs:
     output: true
     sort_by: order
 
 defaults:
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: page
+      toc: false
   - scope:
       path: "" # An empty string here means all files in the project
       type: posts

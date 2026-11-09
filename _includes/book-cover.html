@@ -1,0 +1,11 @@
+{% assign cover = include.book.cover | default: '' | strip %}
+{% if cover != empty %}
+  <div class="book-cover-image" role="img" aria-label="《{{ include.book.title | escape }}》封面" style="background-image: url('{{ cover | relative_url | replace: "'", '%27' | escape }}');"></div>
+{% else %}
+  <div class="book-cover-placeholder" aria-hidden="true">
+    <span class="book-cover-label">READING NOTES</span>
+    <span class="book-cover-title">{{ include.book.title | escape }}</span>
+    {% if include.book.book_author %}<span class="book-cover-author">{{ include.book.book_author | escape }}</span>{% endif %}
+    <span class="book-cover-rule"></span>
+  </div>
+{% endif %}

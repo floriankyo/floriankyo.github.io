@@ -1,0 +1,44 @@
+---
+title: Books
+icon: fas fa-book-open
+order: 4.5
+description: 读过的书，以及阅读留下的想法。
+---
+
+<div class="books-intro">
+  <p>读过的书，以及阅读留下的想法。</p>
+  <span class="books-count">{{ site.books.size }} 本书</span>
+</div>
+
+{% assign dated_books = site.books | where_exp: 'book', 'book.finished != nil' | sort: 'finished' | reverse %}
+{% assign undated_books = site.books | where_exp: 'book', 'book.finished == nil' | sort_natural: 'title' %}
+{% assign books = dated_books | concat: undated_books %}
+{% if books.size > 0 %}
+  <div class="books-grid">
+    {% for book in books %}
+      <a class="book-card" href="{{ book.url | relative_url }}">
+        <div class="book-card-cover">
+          {% include book-cover.html book=book %}
+        </div>
+        <div class="book-card-body">
+          <h2 class="book-card-title">{{ book.title | escape }}</h2>
+          {% if book.book_author %}<p class="book-card-author">{{ book.book_author | escape }}</p>{% endif %}
+          {% if book.description %}<p class="book-card-description">{{ book.description | escape }}</p>{% endif %}
+          <div class="book-card-footer">
+            {% if book.reading_status %}<span class="book-status">{{ book.reading_status | escape }}</span>{% endif %}
+            {% if book.finished %}
+              <span><time datetime="{{ book.finished | date: '%Y-%m-%d' }}">{{ book.finished | date: '%Y.%m.%d' }}</time> 读完</span>
+            {% endif %}
+            <span class="book-card-action">打开书页 <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="books-empty">
+    <i class="fas fa-book-open" aria-hidden="true"></i>
+    <h2>书架正在整理中</h2>
+    <p>读过的书和读后感，会慢慢放在这里。</p>
+  </div>
+{% endif %}
