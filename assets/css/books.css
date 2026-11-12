@@ -13,8 +13,8 @@
 
 .books-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
   margin-bottom: 2rem;
 }
 
@@ -46,12 +46,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.75rem;
+  padding: 0.85rem;
   background: var(--sidebar-bg);
   border-bottom: 1px solid var(--main-border-color);
 }
 
-.book-card-cover > div { width: 9.5rem; }
+.book-card-cover > div { width: 6.25rem; }
 
 .book-cover-image, .book-cover-placeholder {
   display: block;
@@ -80,9 +80,11 @@
 .book-cover-author { font-size: 0.65rem; line-height: 1.5; color: var(--text-muted-color); }
 .book-cover-rule { width: 1.5rem; height: 2px; margin-top: 1rem; background: var(--link-color); }
 
-.book-card-body { display: flex; flex-direction: column; flex: 1; padding: 1.25rem; }
-.content .book-card-title { margin: 0 0 0.4rem; font-size: 1.15rem; line-height: 1.5; color: var(--heading-color); overflow-wrap: anywhere; }
-.book-card-author { margin: 0; font-size: 0.85rem; color: var(--text-muted-color); }
+.book-card-cover .book-cover-placeholder { padding: 0.65rem; }
+.book-card-cover .book-cover-title { margin: 0.4rem 0; font-size: 1rem; }
+.book-card-body { padding: 0.75rem; }
+.content .book-card-title { margin: 0 0 0.25rem; font-size: 1rem; line-height: 1.4; color: var(--heading-color); overflow-wrap: anywhere; }
+.book-card-author { margin: 0; font-size: 0.8rem; line-height: 1.45; color: var(--text-muted-color); }
 
 .books-empty { padding: 4rem 1.5rem; text-align: center; border: 1px dashed var(--main-border-color); border-radius: 0.75rem; }
 .books-empty > i { font-size: 2rem; color: var(--text-muted-color); }
@@ -101,8 +103,7 @@
 .book-post-list time { flex-shrink: 0; font-size: 0.75rem; color: var(--text-muted-color); }
 
 @media (max-width: 575px) {
-  .books-grid { grid-template-columns: minmax(0, 1fr); }
-  .book-card-cover { padding: 1.5rem; }
+  .books-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .book-header { grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1.25rem; align-items: start; }
   .book-detail-cover .book-cover-placeholder { padding: 0.75rem; }
   .book-detail-cover .book-cover-title { font-size: 1rem; margin: 0.75rem 0; }
