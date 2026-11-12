@@ -83,7 +83,6 @@
 .book-card-body { display: flex; flex-direction: column; flex: 1; padding: 1.25rem; }
 .content .book-card-title { margin: 0 0 0.4rem; font-size: 1.15rem; line-height: 1.5; color: var(--heading-color); overflow-wrap: anywhere; }
 .book-card-author { margin: 0; font-size: 0.85rem; color: var(--text-muted-color); }
-.book-card-description { margin: 0.8rem 0 0; font-size: 0.9rem; line-height: 1.7; color: var(--text-color); }
 
 .books-empty { padding: 4rem 1.5rem; text-align: center; border: 1px dashed var(--main-border-color); border-radius: 0.75rem; }
 .books-empty > i { font-size: 2rem; color: var(--text-muted-color); }
@@ -96,7 +95,6 @@
 .book-heading h1 { margin: 0 0 0.75rem; font-size: clamp(1.65rem, 4vw, 2.25rem); line-height: 1.4; overflow-wrap: anywhere; }
 .book-author { margin-bottom: 0.5rem; color: var(--text-color); }
 .book-finished { margin-bottom: 0; font-size: 0.8rem; color: var(--text-muted-color); }
-.book-description { margin: 1rem 0 0; color: var(--text-muted-color); line-height: 1.8; }
 .book-posts-count { margin-left: 0.5rem; font-size: 0.8rem; font-weight: 400; color: var(--text-muted-color); }
 .content .book-post-list { padding: 0; list-style: none; }
 .book-post-list li { display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem 1rem; padding: 0.9rem 0; border-bottom: 1px solid var(--main-border-color); font-size: 1rem; }
@@ -110,7 +108,6 @@
   .book-detail-cover .book-cover-title { font-size: 1rem; margin: 0.75rem 0; }
   .book-detail-cover .book-cover-label { font-size: 0.35rem; }
   .book-detail-cover .book-cover-author { font-size: 0.55rem; }
-  .book-description { font-size: 0.9rem; }
   .book-post-list li { flex-wrap: wrap; }
 }
 

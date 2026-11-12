@@ -6,7 +6,7 @@
 
 1. 把 [book-template.md](book-template.md) 复制到 `_books/`，使用英文短横线文件名，例如 `_books/my-book.md`。
 2. 填写书名 `title` 和作者 `book_author`。`finished` 可填写有明确记录的读完日期，例如 `2026-11-09`。已填日期的书按读完时间倒序排列，其余按书名排序。
-3. `cover` 可填 `/assets/img/books/my-book.jpg`（图片放在相应目录）或完整图片 URL；留空时自动生成文字封面。`description` 是可选的卡片简介。
+3. `cover` 可填 `/assets/img/books/my-book.jpg`（图片放在相应目录）或完整图片 URL。留空时自动生成文字封面。
 4. 阅读笔记作为普通博客文章写在 `_posts/`，按下方说明关联到书。书页自动列出文章标题和发表日期，有文章时才显示「阅读记录」。
 5. 运行 `bundle exec jekyll serve`，查看 `/books/` 和书籍详情页。提交并推送 `main` 后，GitHub Pages 自动发布。
 

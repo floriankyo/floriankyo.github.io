@@ -7,6 +7,5 @@
     {% if include.book.finished %}
       <p class="book-finished"><time datetime="{{ include.book.finished | date: '%Y-%m-%d' }}">{{ include.book.finished | date: '%Y.%m.%d' }}</time> 读完</p>
     {% endif %}
-    {% if include.book.description %}<p class="book-description">{{ include.book.description | escape }}</p>{% endif %}
   </div>
 </header>
