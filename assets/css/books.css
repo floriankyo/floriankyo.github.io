@@ -84,28 +84,19 @@
 .content .book-card-title { margin: 0 0 0.4rem; font-size: 1.15rem; line-height: 1.5; color: var(--heading-color); overflow-wrap: anywhere; }
 .book-card-author { margin: 0; font-size: 0.85rem; color: var(--text-muted-color); }
 .book-card-description { margin: 0.8rem 0 0; font-size: 0.9rem; line-height: 1.7; color: var(--text-color); }
-.book-card-footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-top: auto; padding-top: 1.25rem; font-size: 0.75rem; color: var(--text-muted-color); }
-.book-card-action { margin-left: auto; color: var(--link-color); white-space: nowrap; }
-.book-card-action i { margin-left: 0.3rem; font-size: 0.65rem; }
 
 .books-empty { padding: 4rem 1.5rem; text-align: center; border: 1px dashed var(--main-border-color); border-radius: 0.75rem; }
 .books-empty > i { font-size: 2rem; color: var(--text-muted-color); }
 .content .books-empty h2 { margin-top: 1.5rem; font-size: 1.25rem; }
-.books-empty p { margin-bottom: 0; color: var(--text-muted-color); font-size: 1rem; }
 
 .book-back { display: inline-block; margin-bottom: 2rem; font-size: 0.875rem; }
 .book-back i { margin-right: 0.35rem; }
 .book-header { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 2rem; align-items: center; padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid var(--main-border-color); }
 .book-detail-cover > div { width: 100%; }
-.book-eyebrow { margin-bottom: 0.75rem; font-size: 0.7rem; letter-spacing: 0.12em; color: var(--text-muted-color); }
 .book-heading h1 { margin: 0 0 0.75rem; font-size: clamp(1.65rem, 4vw, 2.25rem); line-height: 1.4; overflow-wrap: anywhere; }
 .book-author { margin-bottom: 0.5rem; color: var(--text-color); }
 .book-finished { margin-bottom: 0; font-size: 0.8rem; color: var(--text-muted-color); }
 .book-description { margin: 1rem 0 0; color: var(--text-muted-color); line-height: 1.8; }
-.book-review-empty { color: var(--text-muted-color); }
-.book-status { margin: 0 0 0.5rem; font-size: 0.75rem; color: var(--text-muted-color); }
-.book-card-footer .book-status { margin: 0; }
-.book-posts { margin-top: 3rem; }
 .book-posts-count { margin-left: 0.5rem; font-size: 0.8rem; font-weight: 400; color: var(--text-muted-color); }
 .content .book-post-list { padding: 0; list-style: none; }
 .book-post-list li { display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem 1rem; padding: 0.9rem 0; border-bottom: 1px solid var(--main-border-color); font-size: 1rem; }
@@ -119,7 +110,6 @@
   .book-detail-cover .book-cover-title { font-size: 1rem; margin: 0.75rem 0; }
   .book-detail-cover .book-cover-label { font-size: 0.35rem; }
   .book-detail-cover .book-cover-author { font-size: 0.55rem; }
-  .book-eyebrow { font-size: 0.6rem; }
   .book-description { font-size: 0.9rem; }
   .book-post-list li { flex-wrap: wrap; }
 }

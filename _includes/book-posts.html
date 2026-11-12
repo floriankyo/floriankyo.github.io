@@ -1,12 +1,9 @@
-{% if include.book.post_prefix %}
-  {% assign book_posts = site.posts | where_exp: 'post', 'post.url contains include.book.post_prefix' | reverse %}
-{% elsif include.book.related_posts %}
-  {% assign book_posts = site.posts | where_exp: 'post', 'include.book.related_posts contains post.url' | reverse %}
-{% else %}
-  {% assign book_posts = '' | split: ',' %}
-{% endif %}
+{% assign series_prefix = include.book.post_prefix | default: nil %}
+{% assign book_posts = site.posts
+  | where_exp: 'post', 'post.url contains series_prefix or include.book.related_posts contains post.url'
+  | reverse %}
 {% if book_posts.size > 0 %}
-  <section class="book-posts" aria-labelledby="book-posts-title">
+  <section class="content" aria-labelledby="book-posts-title">
     <h2 id="book-posts-title">阅读记录 <span class="book-posts-count">{{ book_posts.size }} 篇</span></h2>
     <ul class="book-post-list">
       {% for post in book_posts %}

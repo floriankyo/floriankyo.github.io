@@ -2,13 +2,8 @@
 title: 新月集
 book_author: 拉宾德拉纳特·泰戈尔
 cover: /assets/img/books/the-crescent-moon.jpg
-reading_status: 已读
 description: 一扇窗，让人看见大约一百年前人们如何思考。
 post_prefix: /posts/the-crescent-moon-
+related_posts:
+  - /posts/after-the-crescent-moon/
 ---
-
-## 读后感
-
-我已经读完泰戈尔的《新月集》。它是一部经典；对我这样一个当代读者来说，并不总是轻松——书里的世界与我所生活的时代相去甚远。但我还是读完了。文字很朴素。我并不认为它比许多当代书籍高出许多。对我而言，它更像一种视角：一扇窗，让人看见大约一百年前人们如何思考。而这种思考方式，或许并未像我们想象的那样剧烈改变。孩子依然是人类最宝贵、也最为重要的事物之一。
-
-这段感想最初发表于 [读完《新月集》之后]({% post_url 2026-11-01-after-the-crescent-moon %})，原文保留中英双语版本。

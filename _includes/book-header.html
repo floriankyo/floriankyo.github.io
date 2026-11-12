@@ -2,10 +2,8 @@
 <header class="book-header">
   <div class="book-detail-cover">{% include book-cover.html book=include.book %}</div>
   <div class="book-heading">
-    <p class="book-eyebrow">BOOKS / 读书记录</p>
     <h1>{{ include.book.title | escape }}</h1>
     {% if include.book.book_author %}<p class="book-author">{{ include.book.book_author | escape }}</p>{% endif %}
-    {% if include.book.reading_status %}<p class="book-status">{{ include.book.reading_status | escape }}</p>{% endif %}
     {% if include.book.finished %}
       <p class="book-finished"><time datetime="{{ include.book.finished | date: '%Y-%m-%d' }}">{{ include.book.finished | date: '%Y.%m.%d' }}</time> 读完</p>
     {% endif %}

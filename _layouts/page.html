@@ -7,15 +7,7 @@ layout: default
 <article class="px-1{% if page.collection == 'books' %} book-detail{% endif %}">
   {% if page.collection == 'books' %}
     {% include book-header.html book=page %}
-    <div class="content book-review">
-      {% assign review = content | strip %}
-      {% if review != empty %}
-        {{ content }}
-      {% else %}
-        <p class="book-review-empty">读后感待补充。</p>
-      {% endif %}
-      {% include book-posts.html book=page %}
-    </div>
+    {% include book-posts.html book=page %}
   {% elsif page.layout == 'page' or page.collection == 'tabs' %}
     {% assign tab_key = page.title | downcase %}
     {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
