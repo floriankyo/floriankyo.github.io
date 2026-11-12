@@ -1,7 +1,7 @@
 ---
-title: 思考，快与慢
-book_author: 丹尼尔·卡尼曼
-cover: /assets/img/books/thinking-fast-and-slow.jpg
+title: Thinking, Fast and Slow
+book_author: Daniel Kahneman
+cover: /assets/img/books/thinking-fast-and-slow-en.jpg
 related_posts:
   - /posts/kahneman-bayesian-reasoning-and-plausibility/
 ---

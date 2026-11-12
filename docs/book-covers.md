@@ -1,11 +1,12 @@
 # 书籍封面来源
 
-封面于 2026-11-09 从以下公开页面查找并保存到 `assets/img/books/`，书架和详情页直接使用本地图片。按书名与作者匹配；这些版次并不代表本人持有的具体版本。图片保留原样，版权归原权利人所有。
+封面从以下公开页面查找并保存到 `assets/img/books/`，书架和详情页直接使用本地图片。按书名与作者匹配；这些版次并不代表本人持有的具体版本。图片保留原样，版权归原权利人所有。
 
 | 书籍 | 所用版本 | 来源页面 | 图片 |
 | --- | --- | --- | --- |
 | Book of Elon | Eric Jorgenson 英文版，红白封面 | [Readwise 作者授权预览介绍](https://wise.readwise.io/issues/wisereads-vol-136/)、[作者官网](https://www.elonmuskbook.org/) | [原图](https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/the-book-of-elon/cover_image.jpg) |
-| 思考，快与慢 | 中信出版社，ISBN 9787508633558 | [JF Books](https://jfbooks.org/zh-hans/products/9787508633558) | [原图](https://jfbooks.org/cdn/shop/files/9787508633558_667b14f6-5188-4b69-8745-cddd8f552bbc.jpg?v=1754240164) |
+| Thinking, Fast and Slow | Daniel Kahneman，Penguin 英文平装版，ISBN 9780141033570 | [Penguin 英国官网](https://www.penguin.co.uk/books/56314/thinking-fast-and-slow-by-kahneman-daniel/9780141033570) | [原图](https://cdn.penguin.co.uk/dam-assets/books/9780141033570/9780141033570-jacket-large.jpg) |
+| The Almanack of Naval Ravikant | Eric Jorgenson 编著，英文电子版 | [本书官网](https://www.navalmanack.com/) | [官方 EPUB](https://navalmanack.s3.amazonaws.com/Eric-Jorgenson_The-Almanack-of-Naval-Ravikant_EBOOK_v103.epub) 中的 `OEBPS/image/cover.jpg` |
 | 新月集 | 郑振铎译，外语教学与研究出版社，ISBN 9787560084732 | [新华书店](https://item.xhsd.com/items/1010000101249534) | [原图](https://img6.xinhuashudian.com/bookbasepic/C/00906/97875600847321676522-fm.jpg?x-oss-process=image%2Fresize%2Cm_mfit%2Ch_750%2Cw_750) |
 | 货币未来 | 《货币未来：从金本位到区块链》，机械工业出版社，ISBN 9787111659129 | [豆瓣阅读出版社供书页](https://read.douban.com/ebook/156307572/) | [原图](https://pic.arkread.com/cover/ebook/f/156307572.1653696306.jpg!cover_default.jpg) |
 | 小岛经济学 | 希夫兄弟《小岛经济学：鱼、美元和经济的故事》，中信出版社，ISBN 9787508672960 | [苏宁图书商品页](https://product.suning.com/0070167435/655650267.html) | [原图](https://imgservice.suning.cn/uimg1/b2c/image/YTfJitEzlD5wWG5t5xDdwA%3D%3D.jpg) |
