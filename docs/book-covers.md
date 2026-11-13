@@ -4,6 +4,11 @@
 
 | 书籍 | 所用版本 | 来源页面 | 图片 |
 | --- | --- | --- | --- |
+| Cakes and Ale | Vintage Classics 英文版，ISBN 9780099282778 | [出版方书页](https://www.penguin.co.uk/books/355199/cakes-and-ale-by-maugham-w-somerset/9780099282778) | [原图](https://cdn.penguin.co.uk/dam-assets/books/9780099282778/9780099282778-jacket-large.jpg) |
+| The PARA Method | Simon Element 英文版，ISBN 9781668045565 | [出版方书页](https://www.simonandschuster.com/books/The-PARA-Method/Tiago-Forte/9781668045565) | [原图](https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781668045565/the-para-method-9781668045565_hr.jpg) |
+| Fooled by Randomness | Random House Trade Paperbacks 英文版，ISBN 9780812975215 | [出版方书页](https://www.penguinrandomhouseretail.com/book/?isbn=9780812975215) | [原图](https://images.penguinrandomhouse.com/cover/9780812975215) |
+| Animal Farm | Signet 英文版，ISBN 9780451526342 | [出版方书页](https://www.penguinrandomhouseretail.com/book/?isbn=9780451526342) | [原图](https://images.penguinrandomhouse.com/cover/9780451526342) |
+| How to Read a Book | Simon & Schuster 英文修订版，ISBN 9780671212094 | [出版方书页](https://www.simonandschuster.com/books/How-to-Read-a-Book/Mortimer-J-Adler/9780671212094) | [原图](https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9780671212094/how-to-read-a-book-9780671212094_hr.jpg) |
 | Book of Elon | Eric Jorgenson 英文版，红白封面 | [Readwise 作者授权预览介绍](https://wise.readwise.io/issues/wisereads-vol-136/)、[作者官网](https://www.elonmuskbook.org/) | [原图](https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/the-book-of-elon/cover_image.jpg) |
 | Thinking, Fast and Slow | Daniel Kahneman，Penguin 英文平装版，ISBN 9780141033570 | [Penguin 英国官网](https://www.penguin.co.uk/books/56314/thinking-fast-and-slow-by-kahneman-daniel/9780141033570) | [原图](https://cdn.penguin.co.uk/dam-assets/books/9780141033570/9780141033570-jacket-large.jpg) |
 | The Almanack of Naval Ravikant | Eric Jorgenson 编著，英文电子版 | [本书官网](https://www.navalmanack.com/) | [官方 EPUB](https://navalmanack.s3.amazonaws.com/Eric-Jorgenson_The-Almanack-of-Naval-Ravikant_EBOOK_v103.epub) 中的 `OEBPS/image/cover.jpg` |

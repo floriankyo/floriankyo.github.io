@@ -11,6 +11,11 @@
 .books-intro p { margin: 0; }
 .books-count { white-space: nowrap; font-size: 0.875rem; }
 
+.content .book-category-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+}
+
 .books-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

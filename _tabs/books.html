@@ -14,22 +14,28 @@ description: 读过的书，以及阅读留下的想法。
 {% assign undated_books = site.books | where_exp: 'book', 'book.finished == nil' | sort_natural: 'title' %}
 {% assign books = dated_books | concat: undated_books %}
 {% if books.size > 0 %}
-  <div class="books-grid">
-    {% for book in books %}
-      <a class="book-card" href="{{ book.url | relative_url }}">
-        <div class="book-card-cover">
-          {% include book-cover.html book=book %}
-        </div>
-        <div class="book-card-body">
-          <h2 class="book-card-title">{{ book.title | escape }}</h2>
-          {% if book.book_author %}<p class="book-card-author">{{ book.book_author | escape }}</p>{% endif %}
-          {% if book.finished %}
-            <p class="book-finished"><time datetime="{{ book.finished | date: '%Y-%m-%d' }}">{{ book.finished | date: '%Y.%m.%d' }}</time> 读完</p>
-          {% endif %}
-        </div>
-      </a>
-    {% endfor %}
-  </div>
+  {% assign groups = books | group_by_exp: 'book', "book.book_category | default: '未分类'" | sort: 'name' %}
+  {% for group in groups %}
+    <section class="book-category">
+      <h2 class="book-category-title">{{ group.name | escape }}</h2>
+      <div class="books-grid">
+        {% for book in group.items %}
+          <a class="book-card" href="{{ book.url | relative_url }}">
+            <div class="book-card-cover">
+              {% include book-cover.html book=book %}
+            </div>
+            <div class="book-card-body">
+              <h3 class="book-card-title">{{ book.title | escape }}</h3>
+              {% if book.book_author %}<p class="book-card-author">{{ book.book_author | escape }}</p>{% endif %}
+              {% if book.finished %}
+                <p class="book-finished"><time datetime="{{ book.finished | date: '%Y-%m-%d' }}">{{ book.finished | date: '%Y.%m.%d' }}</time> 读完</p>
+              {% endif %}
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
 {% else %}
   <div class="books-empty">
     <i class="fas fa-book-open" aria-hidden="true"></i>
