@@ -4,6 +4,7 @@
 
 | 书籍 | 所用版本 | 来源页面 | 图片 |
 | --- | --- | --- | --- |
+| Useful Not True | Derek Sivers 英文版，橙色封面 | [作者官网](https://sive.rs/u) | [原图](https://m.sive.rs/images/DerekSivers-cover-UsefulNotTrue-400x640.jpg) |
 | 1984 | Signet 英文版，75 周年封面，ISBN 9780451524935 | [出版方书页](https://www.penguinrandomhouseretail.com/book/?isbn=9780451524935) | [原图](https://images.penguinrandomhouse.com/cover/9780451524935) |
 | 走出孤独：阿德勒孤独十五讲 | 胡慎之编译，天地出版社 2019 年版，ISBN 9787545550887 | [豆瓣书页](https://book.douban.com/subject/34853881/) | [原图](https://img3.doubanio.com/view/subject/l/public/s33506743.jpg) |
 | Cakes and Ale | Vintage Classics 英文版，ISBN 9780099282778 | [出版方书页](https://www.penguin.co.uk/books/355199/cakes-and-ale-by-maugham-w-somerset/9780099282778) | [原图](https://cdn.penguin.co.uk/dam-assets/books/9780099282778/9780099282778-jacket-large.jpg) |
